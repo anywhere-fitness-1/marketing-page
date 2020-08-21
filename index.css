@@ -146,6 +146,7 @@ strong {
 #header {
   background-image: url(../images/header-image-background.jpg);
   padding-top: 2%;
+  border-bottom: #0b0a09 8px solid;
 }
 
 #top-header {
