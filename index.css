@@ -132,6 +132,11 @@ p {
   line-height: 30px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -155,7 +160,7 @@ a {
   margin-right: 5px;
 }
 
-.transparent-btn i:before {
+i:before {
   margin-left: 0 !important;
 }
 
@@ -167,7 +172,7 @@ a {
 /**** Header Elements ****/
 
 #header {
-  background-image: url(../images/header-image-background.jpg);
+  background-image: url(images/header-image-background.jpg);
   padding-top: 2%;
   border-bottom: #0b0a09 8px solid;
   margin-bottom: 60px;
@@ -270,12 +275,35 @@ a {
 
 .features .container {
   display: flex;
-  padding: 0 5%;
+  padding: 0 2%;
 }
 
 .features h3 {
   text-align: center;
   margin-bottom: 15px;
+}
+
+.features .feature-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.features .feature-item h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.features .feature-item p {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.features .feature-item i {
+  margin-right: 10%;
+}
+
+.features .feature-item i:before {
+  font-size: 30px !important;
 }
 
 .features .clients h3 {
@@ -303,7 +331,7 @@ a {
 
 .testimonial {
   padding: 5% 0;
-  background-image: url(../images/testimonials-background.png);
+  background-image: url(images/testimonials-background.png);
   background-size: cover;
   background-position: center;
   border-top: #d8315b 8px solid;
@@ -344,4 +372,95 @@ a {
 #footer p {
   color: #fffaff;
   font-weight: 300;
+}
+
+/**** Responsive Elements ****/
+
+@media only screen and (max-width: 1170px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  #intro-header h1 {
+    line-height: 45px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #intro-header h1 {
+    line-height: 45px;
+  }
+
+  .container {
+    display: block !important;
+  }
+
+  #logo {
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+
+  #top-header {
+    text-align: center;
+  }
+
+  #intro-header .intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #intro-header h2 {
+    margin-bottom: 30px;
+  }
+
+  #intro-header ul {
+    margin: 0 auto 20px;
+    list-style-type: none;
+  }
+
+  .testimonial {
+    padding: 50px 0;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer p {
+    margin-bottom: 20px;
+  }
+
+  .clients {
+    margin-bottom: 30px;
+  }
+
+  #top-header {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  #intro-header h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
