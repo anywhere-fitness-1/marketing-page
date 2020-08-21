@@ -8,7 +8,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css" />
     <link rel="stylesheet" href="index.css" />
+
 
     <title>Anywhere Fitness App Homepage</title>
 </head>
@@ -32,9 +35,9 @@
 
         <section id="intro-header">
             <div class="container">
-                <div class="intro">
+                <div class="intro animate__animated animate__bounceInLeft">
                     <h1>Introducing <strong>AnywhereFitness</strong></h1>
-                    <h3>It will take you <span>From extra fries to exercise</span></h3>
+                    <h2>It will take you <span>From extra fries to exercise</span></h2>
 
                     <ul>
                         <li>Find a Certified fitness instructor near you</li>
@@ -42,15 +45,16 @@
                         <li>Keep track of fitness stats</li>
                     </ul>
 
-                    <a href="#" class="transparent-btn">Download</a>
+                    <a href="#" class="transparent-btn"><i class="flaticon-download"></i> Download</a>
                 </div><!-- .intro -->
 
-                <img src="images/hand-phone-img.png" alt="AnywhereFitness App" />
+                <img src="images/hand-phone-img.png" alt="AnywhereFitness App"
+                    class="animate__animated animate__bounceInRight" />
             </div><!-- .container -->
         </section><!-- #intro-header -->
     </header><!-- #header -->
 
-    <main>
+    <main id="main">
         <section class="intro">
             <div class="container">
                 <h3>Your all-in-one "On-Location" Fitness Class Solution</h3>
@@ -60,22 +64,132 @@
                     at a traditional gym. Certified fitness instructors need an easy way to take the awkwardness out of
                     attendance taking and client payment processing.
                 </p>
-            </div>
-        </section>
+            </div><!-- .container -->
+        </section><!-- .intro -->
 
         <section class="features">
-            <div class="clients">
-                <h3>Clients</h3>
-            </div><!-- .clients -->
+            <div class="container">
+                <div class="clients">
+                    <h3>Clients</h3>
 
-            <div class="instructors">
-                <h3>Instructors</h3>
-            </div><!-- .instructors -->
+                    <div class="client-features">
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Easily find out information on classes</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Manage reservations right from the mobile app</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Reschedule / cancel an upcoming appointment</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Filter search by location, class size, start time and duration</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+                    </div><!-- .client-features -->
+                </div><!-- .clients -->
+
+                <div class="instructors">
+                    <h3>Instructors</h3>
+
+                    <div class="instructor-features">
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Easily find out information on classes</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Manage reservations right from the mobile app</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Reschedule / cancel an upcoming appointment</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+
+                        <div class="feature-item">
+                            <i class="flaticon-send"></i>
+
+                            <div class="feature-info">
+                                <h4>Filter search by location, class size, start time and duration</h4>
+
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium.
+                                </p>
+                            </div>
+                        </div><!-- .feature-item -->
+                    </div><!-- .instructor-features -->
+                </div><!-- .instructors -->
+            </div><!-- .container -->
         </section><!-- .features -->
 
         <section class="testimonial">
             <div class="container">
-                <img src="images/big-quote.png" alt="testimonial quote" />
+                <img src="images/big-quote.png" alt="testimonial quote" class="quote-img" />
 
                 <p class="testimonial-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -96,7 +210,7 @@
         <div class="container">
             <p>Copyright &copy; AnywhereFitness. All Rights Reserved.</p>
 
-            <a href="#" class="transparent-btn">Download</a>
+            <a href="#" class="transparent-btn"><i class="flaticon-download"></i> Download</a>
         </div><!-- .container -->
     </footer><!-- #footer -->
 
