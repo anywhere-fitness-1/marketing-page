@@ -1,0 +1,466 @@
+/* reset css */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* every element is a border-box */
+
+* {
+  box-sizing: border-box;
+}
+
+/**** General Elements ****/
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #0b0a09;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.transparent-btn {
+  color: #fffaff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border: #fffaff 2px solid;
+  padding: 10px 25px;
+  display: inline-block;
+}
+
+.transparent-btn i {
+  font-weight: normal !important;
+  margin-right: 5px;
+}
+
+i:before {
+  margin-left: 0 !important;
+}
+
+.transparent-btn:hover {
+  background: #fffaff;
+  color: #d8315b;
+}
+
+/**** Header Elements ****/
+
+#header {
+  background-image: url(images/header-image-background.jpg);
+  padding-top: 2%;
+  border-bottom: #0b0a09 8px solid;
+  margin-bottom: 60px;
+  background-size: cover;
+  background-position: center;
+}
+
+#top-header {
+  margin-bottom: 6%;
+}
+
+#top-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header nav a {
+  color: #fffaff;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#header nav a.active,
+#header nav a:hover {
+  background: #0a73ec;
+}
+
+#intro-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro-header {
+  color: #fffaff;
+}
+
+#intro-header .intro {
+  padding-top: 5%;
+}
+
+#intro-header h1 {
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+
+#intro-header h2 {
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+
+#intro-header h3 span {
+  font-weight: 600;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#intro-header ul {
+  margin: 0 0 10% 20px;
+}
+
+#intro-header ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/**** Main Elements ****/
+
+#main h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#main .intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#main .intro h3 {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #babac1;
+  text-align: center;
+  color: #113ea7;
+}
+
+#main .intro p {
+  padding: 0 5%;
+}
+
+.features {
+  margin-bottom: 60px;
+}
+
+.features .container {
+  display: flex;
+  padding: 0 2%;
+}
+
+.features h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.features .feature-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.features .feature-item h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.features .feature-item p {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.features .feature-item i {
+  margin-right: 10%;
+}
+
+.features .feature-item i:before {
+  font-size: 30px !important;
+}
+
+.features .clients h3 {
+  color: #d8315b;
+}
+
+.features .instructors h3 {
+  color: #0a73ec;
+}
+
+.features .client-features,
+.features .instructor-features {
+  padding: 5%;
+  margin: 0 5%;
+  color: #fffaff;
+}
+
+.features .client-features {
+  background-color: #d8315b;
+}
+
+.features .instructor-features {
+  background-color: #0a73ec;
+}
+
+.testimonial {
+  padding: 5% 0;
+  background-image: url(images/testimonials-background.png);
+  background-size: cover;
+  background-position: center;
+  border-top: #d8315b 8px solid;
+  text-align: center;
+  color: #fffaff;
+}
+
+.testimonial p {
+  padding: 0 5%;
+}
+
+.testimonial .quote-img {
+  margin-bottom: 40px;
+}
+
+.testimonial p.testimonial-text {
+  margin-bottom: 25px;
+}
+
+.testimonial p.testimonial-author span {
+  display: block;
+  font-weight: bold;
+}
+
+/**** Footer Elements ****/
+
+#footer {
+  background-color: #d8315b;
+  padding: 30px 0;
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer p {
+  color: #fffaff;
+  font-weight: 300;
+}
+
+/**** Responsive Elements ****/
+
+@media only screen and (max-width: 1170px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  #intro-header h1 {
+    line-height: 45px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #intro-header h1 {
+    line-height: 45px;
+  }
+
+  .container {
+    display: block !important;
+  }
+
+  #logo {
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+
+  #top-header {
+    text-align: center;
+  }
+
+  #intro-header .intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #intro-header h2 {
+    margin-bottom: 30px;
+  }
+
+  #intro-header ul {
+    margin: 0 auto 20px;
+    list-style-type: none;
+  }
+
+  .testimonial {
+    padding: 50px 0;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer p {
+    margin-bottom: 20px;
+  }
+
+  .clients {
+    margin-bottom: 30px;
+  }
+
+  #top-header {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  #intro-header h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
