@@ -94,6 +94,9 @@ header{
 	display: flex;
 	justify-content: center;
 }
+.sectionHeader h2{
+	color: #113ea7;
+}
 .topLeft{
 	display: flex;
 	flex-direction: column;
@@ -112,7 +115,7 @@ header{
 	background-color: #D8315B;
 	border-top: #0A73EC 1rem solid;
 }
-.words{
+.intro{
 	width: 60%;
 }
 
@@ -123,12 +126,40 @@ header{
 	margin: 0 auto;
 	
 }
-.cbox{
+.cBox{
 	background-color: #D8315B;
+}  
+.iBox{
+	background-color: black;
 }
+
+.clients, .instructors{
+	padding: 1rem;
+}
+
+.info, .info h5{
+	color: white;
+	padding: 1rem;
+}
+
+
+.info img{
+	filter: invert(100%);
+	padding-right: .9rem;
+}
+
 h5{
 	font-weight: bold;
-	/* color: white; */
+	color: white;
+}
+h2{
+	font-size: 1.7rem;
+	color: white;
+}
+.midBottomContent h2{
+	color: black;
+	font-size: 2rem;
+	border-bottom: white 1px solid;
 }
 
 .midBottomContent{
@@ -138,8 +169,15 @@ h5{
 	background-color: #0A73EC;
 }
 
+
 .midBottomContent h2{
 	margin-bottom: 2rem;
 	padding-top: 4rem;
 	font-weight: bold;
+}
+.subSec{
+	display: flex;
+}
+.subSec img{
+	width: 10%;
 }
