@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    display: flex;
+    background: url(/images/header-image-background.jpg);
+    padding: 2rem 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.headerButtons a{
+	color: white;
+	text-decoration: none;
+	padding: .5rem 1.5rem;
+	border: 1px solid black;
+}
+
+#about{
+	background-color: #0A73EC;
+}
+#home{
+	background-color: #D8315B;
+}
+
+.underHeader{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 2rem 0;
+	color: white;
+	border-top: .3rem #0A73EC solid;
+	border-bottom: .3rem #0A73EC solid;
+}
+
+.topContent{
+	display: flex;
+	width: 80%;
+	padding-top: 4rem;
+}
+.topRight{
+	padding-left: 1rem;
+}
+.sectionHeader{
+	color: #113ea7;
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content: center;
+}
+.topLeft{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.topLeft p{
+	font-size: 1.5rem;
+}
+.af{
+	color:#D8315B;
+}
+.download{
+	display: flex;
+	justify-content: space-around;
+	padding: 3rem;
+	background-color: #D8315B;
+	border-top: #0A73EC 1rem solid;
+}
+.words{
+	width: 60%;
+}
+
+.clientInstructorArea{
+	display: flex;
+	justify-items: center;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.cbox{
+	background-color: #D8315B;
+}
+h5{
+	font-weight: bold;
+	/* color: white; */
+}
+
+.midBottomContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0A73EC;
+}
+
+.midBottomContent h2{
+	margin-bottom: 2rem;
+	padding-top: 4rem;
+	font-weight: bold;
+}
