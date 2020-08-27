@@ -181,3 +181,46 @@ h2{
 .subSec img{
 	width: 10%;
 }
+.bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	background-image: url(/images/testimonials-background.png);
+	background-repeat: no-repeat;
+	margin: auto;
+	padding: 1%;
+	line-height: 175%;
+	border-top: #D8315B solid .5rem;
+}
+
+.bottom article{
+	width: 80%;
+}
+
+.bottom img{
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #D8315B;
+	color: white;
+	padding: 2rem;
+}
+.downLoad{
+	display: flex;
+	flex-direction: row;
+	border: solid white 1px;
+	padding:1rem;
+	font-size: 2rem;
+
+}
+.dlButton{
+	width: 2rem;
+}
+
+.download img{
+	
+}
